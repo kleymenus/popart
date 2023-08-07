@@ -91,3 +91,7 @@ func (s *Sketch) determineDestination(x, y float64) (dx, dy float64) {
 	dy += float64(s.randRange())
 	return
 }
+
+func (s *Sketch) randRange() int {
+	return -s.StrokeJitter + s.Randomizer.Intn(2*s.StrokeJitter)
+}
