@@ -11,8 +11,8 @@ generating a pop art style sketch.
 
 ## Examples
 
-![source.jpg](assets%2Fsource.jpg)
-![result.png](assets%2Fresult.png)
+![source.jpg](https://github.com/kleymenus/popart/blob/main/assets/source.jpg)
+![result.png](https://github.com/kleymenus/popart/blob/main/assets/result.png)
 
 ## Build & Run
 
